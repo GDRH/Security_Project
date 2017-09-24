@@ -11,7 +11,7 @@
 # Ce face proiectul?
 
 #### Pe scurt, ceea ce vrem sa realizam este notificarea utilizatorului, deocamdata, prin afisarea in browser cand un corp este detectat de
-#### senzorul atasat la Arduino, acesta urmand sa trimita informatia la Raspberry prin seriala, iar acesta afisandu-o.
+#### senzorul atasat la Arduino, acesta urmand sa trimita informatia la Raspberry prin seriala, iar acesta afisand-o.
 
 
 # Stare : In dezvoltare...
