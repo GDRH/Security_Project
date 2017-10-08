@@ -2,7 +2,7 @@
 
 void setup() {
   // Codul de aici este rulat doar o data, la inceput.
-  Serial.begin(9600);
+  Serial.begin(9600); // Setam rata de transfer a datelor prin seriala
   pinMode(13, OUTPUT); // Setam pinul 13, al ledului, pe modul de OUTPUT
 }
 
