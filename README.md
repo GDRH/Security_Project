@@ -10,7 +10,18 @@
 
 # Ce face proiectul?
 
-#### Pe scurt, ceea ce vrem sa realizam este notificarea utilizatorului, deocamdata, prin afisarea in browser cand un corp este detectat de senzorul atasat la Arduino, acesta urmand sa trimita informatia la Raspberry prin seriala, iar acesta afisand-o.
+#### Pe scurt, ceea ce vrem sa realizam este notificarea utilizatorului, deocamdata, prin afisarea in browser cand un corp este detectat de senzorul atasat la Arduino, acesta urmand sa trimita informatia la Raspberry prin seriala, iar acesta afisand-o cu ajutorul unui Phoenix App.
+
+#Updates :
+
+### Update 1 : Am adaugat codul pentru Arduino.
+#### Descriere : 
+##### - Senzorul de distanta va folosi pinul analogic 0, alaturi de pinul de 5V si un ground.
+##### - Ledul va folosi pinul digital 13 si un ground.
+##### - Difuzorul va folosi pinul digital 8 si un ground.
+
+##### Functionalitate -> atunci cand senzorul de distanta detecteaza un corp, ledul se aprinde iar difuzorul produce un sunet.
+##### Pentru mai multe detalii, puteti citi comentariile adaugate in cod, aflat in directorul Arduino Code.
 
 
 # Stare : In dezvoltare...
