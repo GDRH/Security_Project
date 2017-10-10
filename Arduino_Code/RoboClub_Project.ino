@@ -11,7 +11,7 @@ void loop() {
   int value = analogRead(0); // Citim valorile indicate de senzorul de distanta
   if(value>=300) // Luam ca granita valoarea de 300, astfel daca valoarea indicata de senzor este mai mare de cea de granita, inseamna ca un corp este in raza senzorului
   {
-  Serial.println(value); // Trimitem valoarea pe seriala
+  Serial.println(1); // Trimitem un semnal pe seriala pentru a arata ca ceva a fost detectat
   digitalWrite(13, HIGH); // Aprindem becul
   tone(8, NOTE_D8); // Producem sunetul
   delay(1000); // Asteptam o secunda

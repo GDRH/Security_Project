@@ -63,6 +63,7 @@ defmodule Firmware.Mixfile do
       {:bootloader, "~> 0.1"},
       {:nerves_runtime, "~> 0.4"},
       {:nerves_network, "~> 0.3"},
+      {:nerves_uart, "~> 0.1"},
       {:ui, path: "../ui"},
     ]
   end
