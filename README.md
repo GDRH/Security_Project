@@ -26,6 +26,11 @@
 
 # Updates :
 
+### Update 2 : Elixir receiver adaugat.
+#### Descriere :
+##### - Am adaugat cod in Elixir pentru primirea mesajelor din Arduino prin seriala.
+##### - Deocamdata mesajul de urgenta este afisat in Elixir Shell-ul din Raspberry Pi
+
 ### Update 1 : Am adaugat codul pentru Arduino.
 #### Descriere : 
 ##### - Senzorul de distanta va folosi pinul analogic 0, alaturi de pinul de 5V si un ground.
